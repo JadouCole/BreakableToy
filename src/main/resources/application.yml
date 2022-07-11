@@ -1,0 +1,32 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: admin
+      password: localadmin
+      database: admin
+    rest:
+      base-path: /api
+
+config:
+  activate:
+    on-profile: local
+server:
+  port: 9000
+app:
+  version: 1.0.0
+
+api-key: ${API_KEY}
+
+account-api:
+  base-url: https://americas.api.riotgames.com
+  getAccount: /riot/account/v1/accounts/by-riot-id/{accountName}/{accountTag}
+  readTimeoutMs: 30000
+  connectTimeoutMs: 30000
+match-api:
+  base-url: https://americas.api.riotgames.com
+  getInfo: /tft/match/v1/matches/{matchId}
+  getMatches: /tft/match/v1/matches/by-puuid/{puuid}
+  readTimeoutMs: 30000
+  connectTimeoutMs: 30000

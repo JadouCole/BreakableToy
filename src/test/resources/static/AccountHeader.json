@@ -1,0 +1,17 @@
+{
+  "Date": "Mon, 18 Apr 2022 12:58:41 GMT",
+  "Content-Type": "application/json;charset=utf-8",
+  "Transfer-Encoding": "chunked",
+  "Connection": "keep-alive",
+  "Access-Control-Allow-Headers": "Content-Type, DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range",
+  "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT, GET, PUT, DELETE, POST, OPTIONS",
+  "Access-Control-Allow-Origin": "*, *",
+  "Vary": "Accept-Encoding",
+  "X-App-Rate-Limit": "20:1,100:120",
+  "X-App-Rate-Limit-Count": "1:1,2:120",
+  "X-Method-Rate-Limit": "1000:60",
+  "X-Method-Rate-Limit-Count": "2:60",
+  "X-Riot-Edge-Trace-Id": "4f504ede-17a7-4cb3-a848-170f9b882e1a",
+  "Content-Encoding": "gzip",
+  "Access-Control-Expose-Headers": "Content-Length,Content-Range"
+}
